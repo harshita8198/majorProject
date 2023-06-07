@@ -1,0 +1,41 @@
+#service {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 47px;
+    width: 100%;
+    /* border: white;
+    box-shadow: 1px 1px 5px 2px black; */
+}
+
+#product-phn {
+    color: black;
+}
+
+#product-phn :hover {
+    color: wheat;
+    text-decoration: underline;
+}
+
+.img-fluid {
+    border-radius: ;
+}
+
+.card-title {
+    text-decoration: none;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.card-title:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#card-left:hover {
+    background-color: whitesmoke;
+}
+
+#card-right:hover {
+    background-color: whitesmoke;
+}

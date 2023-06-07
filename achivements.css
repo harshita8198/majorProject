@@ -1,0 +1,46 @@
+#achivement-h {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 47px;
+    width: 100%;
+    /* border: white;
+    box-shadow: 1px 1px 5px 2px black; */
+}
+
+#achieve {
+    background-color: black;
+}
+
+.achieve-top {
+    margin: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+}
+
+.achieve-top2 {
+    margin: 15px;
+    text-align: center;
+    color: white;
+}
+
+.achieve-imgs {
+    margin: 20px;
+    height: 120px;
+    width: 120px;
+}
+
+.achieve-count {
+    margin: 20px;
+    color: white;
+    font: 50px bold;
+    text-align: center;
+}
+
+.achieve-name {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}

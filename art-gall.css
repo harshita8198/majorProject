@@ -1,0 +1,22 @@
+#art-gallery {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 47px;
+    width: 100%;
+    /* border: white;
+    box-shadow: 1px 1px 5px 2px black; */
+}
+
+.d-block {
+    height: 400px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+#carouselExampleIndicators {
+    content: "";
+    opacity: ;
+    /* background-image: url("pics/a1.webp"); */
+    background-color: black;
+}

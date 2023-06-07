@@ -1,0 +1,36 @@
+/* #owner {
+    border: white;
+    width: 100rem;
+    box-shadow: 1px 1px 5px 2px black;
+} */
+
+#owner-h {
+    /* color: white; */
+    font-weight: bold;
+    text-align: center;
+    font-size: 47px;
+    width: 100%;
+    /* border: white;
+    box-shadow: 1px 1px 5px 2px black; */
+}
+
+.owner-img {
+    margin-top: 50px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+#owner-name {
+    background-color: black;
+}
+
+.owner-h {
+    text-align: center;
+    color: white;
+    font-size: 29px;
+}
+
+.owner-phn {
+    color: white;
+}

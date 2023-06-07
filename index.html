@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="footer.css" rel="stylesheet">
+    <link href="owner.css" rel="stylesheet">
+    <link href="achivements.css" rel="stylesheet">
+    <link href="art-gall.css" rel="stylesheet">
+    <link href="service.css" rel="stylesheet">
+    <link href="feedback.html" rel="stylesheet">
+    <link href="nav.css" rel="stylesheet">
+    <title>the Burger company</title>
+
+   <style>
+	.about{
+	font-size:17px;
+	}
+        #dealin {
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            font-size: 47px;
+            width: 100%;
+            /* border: white;
+    box-shadow: 1px 1px 5px 2px black; */
+        }
+        
+        #deal-name {
+            text-align: center;
+            font-size: 47px;
+            font-weight: bold;
+        }
+        
+        .logo-img {
+            height: 150px;
+            width: 150px;
+            justify-content: center;
+        }
+		h6{
+	/*	margin-left:10px;         */
+	margin-left:80px; 
+	margin-right:40px;
+	
+}  
+#aboutpic{
+border-radius:50px;
+
+
+}
+
+#foot{
+border-radius:80px;	
+}
+#jpname{
+font-size : 25px;
+}
+.nav-item{
+color:white;
+}
+
+  </style>
+
+
+</head>
+<script>
+    function mouseover() {
+
+        document.getElementById("emailid").style.color = "white";
+    }
+</script>
+
+<body>
+    <!-- navbar -->
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid" id="top-nav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand ml-5" href="#"><img src="logo/burlogo.png" id="nav-logo">THE BURGER COMPANY</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#top-nav">HOME</a>
+                    </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          OUR BEST
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="phone.html">VEG-NON_VEG</a></li>
+                           
+                        </ul>
+                    </li>
+                 
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#menucontact">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#aboutbur">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="orders.php">ORDERS</a>
+                    </li>
+                </ul>
+               
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- crousel first page -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="burger/crausel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="burger/crausel2.webp" class="d-block w-100" alt="...">
+				</div>
+            <div class="carousel-item">
+                <img src="burger/crausel3.webp" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- services -->
+        <br>
+    <div class="row" id="aboutbur">
+        <div class="col-md-12">
+            <h4 id="service"> <u>About Us</u>
+            </h4>
+        </div>
+    </div>
+	<div class="row">
+	<div class="col-md-6">
+	<h6>The Burger Company is one of the fastest growing modern casual dining chain of cafes by Neelam singh that exists to delight passionate American cuisine lovers.<br><br> Walk in and place your order and sit back and relax and soak in our modern to the age ambience as you wait for your order to be freshly prepared. TBC Offers a unique Desi twist to American cuisine that every Indian can relate to. All our food is 100% made to order 100% fresh that tantalise the taste buds and excite your senses.
+The Burger Company, India is marching towards 100+ opened stores by the end of 2022 and be India’s largest homegrown burger brand by Dec 2023</h6>
+	</div>
+	
+	<div class="col-md-6">
+	<img src="https://b.zmtcdn.com/data/pictures/8/20388478/562b3eef622f431da1cc1c9e9942901e.jpg?fit=around|300:273&crop=300:273;*,*" width="430" height="300" id="aboutpic">
+	</div>
+	</div>
+    <!-- Achievement -->
+
+    <div class="row mt-5" id="achieve">
+        <div class="col-12">
+            <h4 id="achivement-h">
+                Achievement
+            </h4>
+        </div>
+        <div class="col-md-12">
+            <h3 class="achieve-top">
+                The Burger Company - Best Food OUTLET In Malout 
+            </h3>
+            <p class="achieve-top2">
+              Best burgers in town. Food is super delicious and their food presentation is incredible. Injectors among beverages are must try. Can’t beat burger 
+            </p>
+        </div>
+
+        <div class="col-md-3">
+            <div class="achieve-img">
+                <center> <img src="achivements/users.png" class="achieve-imgs"></center>
+            </div>
+            <div class="achieve-count">
+                10000+
+            </div>
+            <div class="achieve-name">
+                Satisfied Customers<br> (last 6 months)
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="achieve-img">
+                <center> <img src="https://cdn-icons-png.flaticon.com/512/6951/6951784.png" class="achieve-imgs" style="border-radius: 50%;"></center>
+            </div>
+            <div class="achieve-count">
+                100+
+            </div>
+            <div class="achieve-name">
+                OUTLETS
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="achieve-img">
+                <center> <img src="https://www.shutterstock.com/image-vector/black-city-icon-on-white-260nw-296057390.jpg" class="achieve-imgs" style="border-radius: 50%;"></center>
+            </div>
+            <div class="achieve-count">
+                40+
+            </div>
+            <div class="achieve-name">
+                CITIES
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="achieve-img">
+                <center> <img src="achivements/orders.png" class="achieve-imgs"></center>
+            </div>
+            <div class="achieve-count">
+                1,500,000+
+            </div>
+            <div class="achieve-name">
+                ORDERS
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- menu-->
+ <br>
+    <div class="row">
+        <div class="col-md-12" id="owner">
+            <h4 id="owner-h"><u>Our Menu</u></h4>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4"  id="menucontact">
+            <div class="col">
+                <div class="card">
+                    <img src="burger/menu1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; text-decoration: none;"></h5>
+                        <p class="card-text">
+                            <center ><i class="fa fa-phone" aria-hidden="true" style="color: black;" ></i>
+                                <a href="tel:08558932400" style="color: black;font-weight: bold; text-decoration: none;"> 085589-32400</a></center>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="burger/non menu2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; text-decoration: none;"></h5>
+                        <p class="card-text">
+                            <center> <i class="fa fa-whatsapp" aria-hidden="true" style="color: black;"></i>
+                                <a href="https://wa.me/08558932400" style="color: black;font-weight: bold; text-decoration: none;">08558932400</a></center>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+
+    <!-- Art Gallery -->
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="background-color: black;">
+        <div class="row">
+            <div class="col-12">
+                <h4 id="art-gallery">
+                    Art Gallery
+                </h4>
+            </div>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <center><img src="https://theburgercompany.co/wp-content/uploads/2022/06/BANNER-2.jpg" class="d-block w-50" alt="..."></center>
+            </div>
+            <div class="carousel-item">
+                <center> <img src="https://theburgercompany.co/wp-content/uploads/2022/06/BANNER-3.jpg" class="d-block w-50" alt="..."></center>
+            </div>
+            <div class="carousel-item">
+                <center> <img src="https://theburgercompany.co/wp-content/uploads/2022/06/BANNER-1.jpg" class="d-block w-50" alt="..."></center>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        <br>
+    </div>
+
+
+    <!-- Which Brands Mainly Deal in -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12" id="dealin">
+                <h4 id="deal-name"><u>Service-Options</u></h4>
+            </div>
+			</div>
+			<div class="row  mb-5">
+			<div class="col-md-4"> <a href="https://www.google.com/maps/contrib/105405459190967987630/photos/@30.1905259,74.5006835,17z/data=!3m1!4b1!4m3!8m2!3m1!1e1?entry=ttu" target="blank"><img src="burger/dining.jpg" width="300" height="300"></a><br><b class="" ><center style="margin-right:35px;"> IN-DINING</center></b></div>
+			<div class="col-md-4"><img src="burger/takein.jpg" width="300" height="300"><b><center>TAKEAWAY</center></b></div>
+			<div class="col-md-4"><a href="https://www.zomato.com/malout/the-burger-company-malout-locality/order" target="blank"><img src="burger/zomato.jpg" width="300" height="300"></a><br><b><center>DELIVERY-OPTIONS</center></b>
+			</div>
+			</div>
+			</div>
+			
+		
+
+
+    <!-- Footer -->
+
+    <div class="row" id="footer">
+        <div class="col-md-3" id="firstcol">
+            <ul>
+                <li id="jp-image"><br><br><img src="logo/burlogo.png" height="160" width="180"></li>
+                <li id="jpname" style="text-align: center;"><b>THE BURGER COMPANY</b></li>
+                <li class="jpline">
+
+                    <center>__________________</center>
+                </li>
+                <li id="jp-pin" style="text-align: center;"> Malout,Punjab-152107</li>
+                <li id="social">
+                    <a href="https://www.facebook.com/theburgercompanyindia/" target="blank">
+                        <center><i class="fa fa-facebook fa-3x" aria-hidden="true" style="color: red; padding:7px; border-radius:30%; cursor: pointer;"></i></a>
+                    <a href="mailto:support@theburgercompany.com" target="blank" id="emailid"><i class="fa fa-envelope-o fa-3x" aria-hidden="true" style="color: red; padding:7px; border-radius:30%; cursor: pointer;" ></i></a>
+                    <a href="https://wa.me/8198002263" target="_blank"> <i class="fa fa-whatsapp fa-3x" aria-hidden="true" style="color: red; padding:7px; border-radius:30%; cursor: pointer;" onMouseOver="this.style.color='white'"></i></a>
+                    </center>
+                </li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="col-md-2 " id="secondcol ">
+            <ul>
+                <li>
+                    <br><br>
+                    <h5 class="foot-top">Quick Links</h5>
+                    <li class="jpline">
+                        <center>____________</center>
+                    </li>
+                    <br>
+                </li>
+                <li>
+                    <a href="# ">
+                        <center class="quick"> HOME</center>
+                    </a>
+                </li>
+                <li>
+                    <a href="#menucontact">
+                        <center class="quick"> CONTACT</center>
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutbur">
+                        <center class="quick">ABOUT US</center>
+                    </a>
+                </li>
+                <li>
+                    <a href="orders.php">
+                        <center class="quick">ORDERS</center>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class=col-md-4>
+            <ul>
+                <li>
+                    <br><br>
+                    <h5 class="foot-top">Contact Us</h5>
+                    <li class="jpline">
+                        <center>____________</center>
+                    </li>
+                    <br>
+                </li>
+                <li class="about ">
+                    <i class="fa fa-map-marker" aria-hidden="true" style="color: white;"></i> <span class="foot-about"> Teshil Road,Malout(Punjab)</span>
+                </li>
+                <li class="about ">
+                    <i class="fa fa-mobile " aria-hidden="true" style="color: white;"></i> <span class="foot-about"> 085589-32400</span>
+                </li>
+               <li class="about ">
+                    <i class="fa fa-envelope-o" aria-hidden="true" style="color: white;"></i> <span class="foot-about">support@theburgercompany.com</span>
+                </li>
+                <li class="about ">
+                    <i class="fa fa-clock-o" aria-hidden="true" style="color: white;"></i> <span class="foot-about">Mon-Sun 10am-10pm</span>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-2 ">
+            <ul>
+                <li>
+                    <br><br>
+                    <h5 class="foot-top">Location</h5>
+                    <li class="jpline">
+                        <center>____________</center>
+                    </li>
+                    <br>
+                </li>
+                <li>
+                    <center><iframe id="mm-loc" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13794.525002190137!2d74.49192876977538!3d30.190525900000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39171725b3c71571%3A0x78cbef406d3430a!2sThe%20Burger%20Company!5e0!3m2!1sen!2sin!4v1681304696504!5m2!1sen!2sin"
+                            width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+                </center>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

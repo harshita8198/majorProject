@@ -1,0 +1,73 @@
+#footer {
+    background-color: black;
+}
+
+.foot-top {
+    font-size: 29px;
+    text-align: center;
+}
+
+#jp-image {
+    padding-left: 70px;
+}
+
+#jpname {
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#jpname:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.jpline {
+    color: red;
+}
+
+#jp-pin {
+    font-size: 28px;
+    margin-left: 5px;
+    margin-top: 9px;
+}
+
+ul li {
+    color: white;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.quick {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.quick:hover {
+    color: red;
+    margin-left: -8px;
+}
+
+.about {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+
+.foot-about {
+    text-alig: center;
+}
+
+i {
+    color: aqua;
+}
+
+#emailid:hover {
+    color: white;
+}
